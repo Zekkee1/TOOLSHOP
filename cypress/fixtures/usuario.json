@@ -1,0 +1,22 @@
+{ 
+  "first_name":"firstnameteste",
+  "last_name":"lastnameteste",
+  "dob":"1995-05-25",
+  "street":"Rua João Galina",
+  "postal_code":"06810-355",
+  "city":"Embu das Artes",
+  "state":"são paulo",
+  "country":"BR",
+  "phone":"18999852883",
+  "email": "testeteste41984@gmail.com",
+  "password": "Teste@teste44381",
+  "bankName":"Teste bank name",
+  "accountName":"Teste account name",
+  "accountNumber":"8080",
+  "cardNumber":"5505-0414-1258-9845",
+  "expirationDate":"12/2026",
+  "cvv":"123",
+  "cardHolderName":"teste card holder name"
+}
+  
+

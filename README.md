@@ -14,6 +14,7 @@ Este projeto consiste em realizar testes funcionais em uma aplicação que simul
   <li>Node.js</li>
 </ul>
 
+# 🚀 Como executar os testes
 
 ## 🛠️ Pré-requisitos
 - Node.js instalado
@@ -22,7 +23,7 @@ Este projeto consiste em realizar testes funcionais em uma aplicação que simul
 ## 1️⃣ Clonar o repositório do projeto
 Abra o terminal e execute o comando abaixo:
 - git clone https://github.com/Zekkee1/TOOLSHOP.git
-- cd <nome-da-pasta-do-projeto>
+- cd "nome-da-pasta-do-projeto"
 
 ## 2️⃣ Instalar as dependências do projeto
 Dentro da pasta do projeto, execute:

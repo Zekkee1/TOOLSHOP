@@ -1,4 +1,3 @@
-# PROJETO - TOOLSHOP
 <h1 align="center">
 Projeto TOOLSHOP - Cypress
 </h1>

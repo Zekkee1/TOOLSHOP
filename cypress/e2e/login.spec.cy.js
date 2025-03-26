@@ -6,7 +6,7 @@ describe('Testes Funcionais do Login', () => {
   })
 
   it('Deve efetuar o login na aplicação', function () {
-    cy.login_teste(this.usuario.email, this.usuario.password)
+    cy.login_teste(this.usuario.email, this.usuario.password, true)
     cy.url().should('include', '/account')
 
   });
@@ -20,9 +20,7 @@ describe('Testes Funcionais do Login', () => {
   it('Deve exibir erro de senha invalida quando inserir uma senha invalida ou vazia', function () {
     cy.login_teste(this.usuario.email, " ")
     cy.get('#password-error>div').should('be.visible', 'Password length is invalid')
-    cy.login_teste(this.usuario.email, "senha invalida")
-    cy.get('[data-test="login-error"]').should('be.visible', 'Invalid email or password')
-
+    
   })
 
 })

@@ -1,10 +1,13 @@
 
-Cypress.Commands.add('login_teste', (email, senha) => {
+Cypress.Commands.add('login_teste', (email, senha, withWait = false) => {
   cy.visit('/auth/login')
   cy.get('#email').clear().type(email);
   cy.get('#password').clear().type(senha);
   cy.get('.btnSubmit').click();
-  cy.wait(3000)
+  if(withWait){
+    cy.wait(3000)
+  }
+
   // Verifica se a mensagem de erro de login invalido aparece.
   cy.get('body').then(($body) => {
     const errorElement = $body.find('.help-block');

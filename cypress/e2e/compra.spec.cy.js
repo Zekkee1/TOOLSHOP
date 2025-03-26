@@ -2,7 +2,7 @@
 describe('Testes funcionais no fluxo de compra', () => {
     beforeEach(function () {
         cy.session('login-session', () => {
-            cy.login_teste(this.usuario.email, this.usuario.password);
+            cy.login_teste(this.usuario.email, this.usuario.password, true);
         });
     })
 
